@@ -2,7 +2,7 @@
 I'm practicing using positional arguments, keyword arguments, default arguments, unpacking and more."""
 
 from practicing_function_arguments_Nileproject_Nilefile import get_distance, format_price, SHIPPING_PRICES
-from test import test_function
+from practicing_function_arguments_Nileproject_tests import test_function
 
 # This function is calculating the costs, with a default argument for shipping_type
 def calculate_shipping_cost(from_coords,to_coords,shipping_type='Overnight'):
